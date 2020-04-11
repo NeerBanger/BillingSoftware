@@ -193,10 +193,10 @@ public class weight_slip extends javax.swing.JFrame {
         lb_add2.setText("GOTAN, DIST. NAGAUR (RAJ.)");
 
         lb_rst1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_rst1.setText("RST No     :");
+        lb_rst1.setText("RST No  ");
 
         lb_partyname1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_partyname1.setText("PARTY NAME  :");
+        lb_partyname1.setText("PARTY NAME  ");
 
         lb_rst.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
         lb_rst.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -207,10 +207,10 @@ public class weight_slip extends javax.swing.JFrame {
         lb_partyname.setText(" ");
 
         lb_vehicle1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_vehicle1.setText("VEHICLE No   :");
+        lb_vehicle1.setText("VEHICLE No   ");
 
         lb_material1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_material1.setText("MATERIALS    :");
+        lb_material1.setText("MATERIALS    ");
 
         lb_material.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
         lb_material.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -221,27 +221,27 @@ public class weight_slip extends javax.swing.JFrame {
         lb_vehicle.setText(" ");
 
         lb_border1.setFont(new java.awt.Font("Dot Matrix", 0, 8)); // NOI18N
-        lb_border1.setText("***********************************************************************************************************************************************************");
+        lb_border1.setText("***********************************************************************************************************************************************************************************************************************************************");
 
         lb_gross1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_gross1.setText("GROSS    :");
+        lb_gross1.setText("GROSS ");
 
         lb_tare1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_tare1.setText("TARE    :");
+        lb_tare1.setText("TARE  ");
 
         lb_net1.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_net1.setText("NET     :");
+        lb_net1.setText("NET ");
 
         lb_gross.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_gross.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        lb_gross.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lb_gross.setText("0 KG");
 
         lb_tare.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_tare.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        lb_tare.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lb_tare.setText("0 KG");
 
         lb_net.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_net.setHorizontalAlignment(javax.swing.SwingConstants.TRAILING);
+        lb_net.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         lb_net.setText("0 KG");
 
         lb_grossdate.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
@@ -257,30 +257,37 @@ public class weight_slip extends javax.swing.JFrame {
         lb_grosstime.setText("TIME :");
 
         lb_border2.setFont(new java.awt.Font("Dot Matrix", 0, 8)); // NOI18N
-        lb_border2.setText("***********************************************************************************************************************************************************");
+        lb_border2.setText("***********************************************************************************************************************************************************************************************************************************************");
 
         lb_charges.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
-        lb_charges.setText("CHARGES    :      Rs. 200");
+        lb_charges.setText("CHARGES    : Rs. 200");
 
         lb_border3.setFont(new java.awt.Font("Dot Matrix", 0, 8)); // NOI18N
-        lb_border3.setText("***********************************************************************************************************************************************************");
+        lb_border3.setText("***********************************************************************************************************************************************************************************************************************************************");
 
         lb_opersign.setFont(new java.awt.Font("Dot Matrix", 0, 16)); // NOI18N
         lb_opersign.setText("OPERATOR SIGNATURE : ");
 
         lb_border4.setFont(new java.awt.Font("Dot Matrix", 0, 8)); // NOI18N
-        lb_border4.setText("***********************************************************************************************************************************************************");
+        lb_border4.setText("***********************************************************************************************************************************************************************************************************************************************");
 
         javax.swing.GroupLayout weight_slip_panelLayout = new javax.swing.GroupLayout(weight_slip_panel);
         weight_slip_panel.setLayout(weight_slip_panelLayout);
         weight_slip_panelLayout.setHorizontalGroup(
             weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(weight_slip_panelLayout.createSequentialGroup()
+                .addGap(286, 286, 286)
+                .addGroup(weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(lb_add1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lb_comp_name, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(lb_add2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addGap(0, 0, Short.MAX_VALUE))
+            .addGroup(weight_slip_panelLayout.createSequentialGroup()
                 .addGap(77, 77, 77)
                 .addGroup(weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(weight_slip_panelLayout.createSequentialGroup()
-                        .addComponent(lb_opersign, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))
+                        .addComponent(lb_border1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addContainerGap())
                     .addGroup(weight_slip_panelLayout.createSequentialGroup()
                         .addGroup(weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                             .addComponent(lb_gross1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -303,8 +310,6 @@ public class weight_slip extends javax.swing.JFrame {
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, weight_slip_panelLayout.createSequentialGroup()
                         .addGroup(weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                             .addComponent(lb_border4, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(lb_border2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(lb_border1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(weight_slip_panelLayout.createSequentialGroup()
                                 .addGroup(weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(lb_rst1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -323,16 +328,13 @@ public class weight_slip extends javax.swing.JFrame {
                                     .addComponent(lb_material, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                             .addComponent(lb_border3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(javax.swing.GroupLayout.Alignment.LEADING, weight_slip_panelLayout.createSequentialGroup()
-                                .addComponent(lb_charges, javax.swing.GroupLayout.PREFERRED_SIZE, 237, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lb_charges, javax.swing.GroupLayout.PREFERRED_SIZE, 298, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(0, 0, Short.MAX_VALUE)))
-                        .addGap(117, 117, 117))))
-            .addGroup(weight_slip_panelLayout.createSequentialGroup()
-                .addGap(286, 286, 286)
-                .addGroup(weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                    .addComponent(lb_add1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lb_comp_name, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(lb_add2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                .addGap(0, 0, Short.MAX_VALUE))
+                        .addGap(117, 117, 117))
+                    .addGroup(weight_slip_panelLayout.createSequentialGroup()
+                        .addComponent(lb_opersign, javax.swing.GroupLayout.PREFERRED_SIZE, 328, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap())
+                    .addComponent(lb_border2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
         );
         weight_slip_panelLayout.setVerticalGroup(
             weight_slip_panelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -124,11 +124,20 @@
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="286" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="lb_add1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lb_comp_name" alignment="0" max="32767" attributes="0"/>
+                              <Component id="lb_add2" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
-                                  <Component id="lb_opersign" min="-2" pref="187" max="-2" attributes="0"/>
-                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="lb_border1" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -157,8 +166,6 @@
                               <Group type="102" alignment="1" attributes="0">
                                   <Group type="103" groupAlignment="1" attributes="0">
                                       <Component id="lb_border4" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="lb_border2" alignment="0" max="32767" attributes="0"/>
-                                      <Component id="lb_border1" max="32767" attributes="0"/>
                                       <Group type="102" attributes="0">
                                           <Group type="103" groupAlignment="0" max="-2" attributes="0">
                                               <Component id="lb_rst1" max="32767" attributes="0"/>
@@ -182,22 +189,18 @@
                                       </Group>
                                       <Component id="lb_border3" alignment="0" max="32767" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="lb_charges" min="-2" pref="237" max="-2" attributes="0"/>
+                                          <Component id="lb_charges" min="-2" pref="298" max="-2" attributes="0"/>
                                           <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace min="-2" pref="117" max="-2" attributes="0"/>
                               </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="lb_opersign" min="-2" pref="328" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="lb_border2" alignment="0" max="32767" attributes="0"/>
                           </Group>
-                      </Group>
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="286" max="-2" attributes="0"/>
-                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                              <Component id="lb_add1" alignment="0" max="32767" attributes="0"/>
-                              <Component id="lb_comp_name" alignment="0" max="32767" attributes="0"/>
-                              <Component id="lb_add2" alignment="0" max="32767" attributes="0"/>
-                          </Group>
-                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -314,7 +317,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="RST No     :"/>
+                    <Property name="text" type="java.lang.String" value="RST No  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_partyname1">
@@ -322,7 +325,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="PARTY NAME  :"/>
+                    <Property name="text" type="java.lang.String" value="PARTY NAME  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_rst">
@@ -348,7 +351,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="VEHICLE No   :"/>
+                    <Property name="text" type="java.lang.String" value="VEHICLE No   "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_material1">
@@ -356,7 +359,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="MATERIALS    :"/>
+                    <Property name="text" type="java.lang.String" value="MATERIALS    "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_material">
@@ -382,7 +385,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="8" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************"/>
+                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************************************************************************************************"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_gross1">
@@ -390,7 +393,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="GROSS    :"/>
+                    <Property name="text" type="java.lang.String" value="GROSS "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_tare1">
@@ -398,7 +401,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="TARE    :"/>
+                    <Property name="text" type="java.lang.String" value="TARE  "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_net1">
@@ -406,7 +409,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="NET     :"/>
+                    <Property name="text" type="java.lang.String" value="NET "/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_gross">
@@ -414,7 +417,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
                     <Property name="text" type="java.lang.String" value="0 KG"/>
                   </Properties>
                 </Component>
@@ -423,7 +426,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
                     <Property name="text" type="java.lang.String" value="0 KG"/>
                   </Properties>
                 </Component>
@@ -432,7 +435,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="horizontalAlignment" type="int" value="11"/>
+                    <Property name="horizontalAlignment" type="int" value="4"/>
                     <Property name="text" type="java.lang.String" value="0 KG"/>
                   </Properties>
                 </Component>
@@ -473,7 +476,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="8" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************"/>
+                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************************************************************************************************"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_charges">
@@ -481,7 +484,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="16" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="CHARGES    :      Rs. 200"/>
+                    <Property name="text" type="java.lang.String" value="CHARGES    : Rs. 200"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_border3">
@@ -489,7 +492,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="8" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************"/>
+                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************************************************************************************************"/>
                   </Properties>
                 </Component>
                 <Component class="javax.swing.JLabel" name="lb_opersign">
@@ -505,7 +508,7 @@
                     <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
                       <Font name="Dot Matrix" size="8" style="0"/>
                     </Property>
-                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************"/>
+                    <Property name="text" type="java.lang.String" value="***********************************************************************************************************************************************************************************************************************************************"/>
                   </Properties>
                 </Component>
               </SubComponents>
